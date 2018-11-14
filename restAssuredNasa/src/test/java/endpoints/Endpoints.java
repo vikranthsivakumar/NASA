@@ -6,7 +6,8 @@ public class Endpoints {
 	//API Endpoints 
 	
 	//SEARCH Endpoint 
-	public static String searchEndpoint = "/search?q";
+	public static String searchEndpoint = "/search?q=q";
+	
 	
 	//ASSET Endpoint
 	public static String assetEndpoint = "/asset/";
