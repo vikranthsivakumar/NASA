@@ -1,5 +1,8 @@
 # NASA
 REST Assured Groovy Framework for testing endpoints
+Language: Java
+Developer: Vik Sivakumar
+
 
 
 Background: Using NASA's public API this framework tests status codes of endpoints, as well as the backend response for mentioned endpoints
