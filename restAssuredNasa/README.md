@@ -1,4 +1,3 @@
-# NASA
 REST Assured Groovy Framework for testing endpoints
 
 
