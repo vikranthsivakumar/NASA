@@ -28,6 +28,7 @@ public class GetData {
 		Assert.assertEquals(currStatusCode, 200);
 	}
 
+	
 	@Test
 	public void getSearchBody() {
 
@@ -72,11 +73,9 @@ public class GetData {
 		System.out.println("Current Year is: " + currentYear);
 		
 		Response responseObjCurrTime = RestAssured.get(rootURL + Endpoints.searchLatestTimeStamp);
-		System.out.println("Search Results with current Year" + responseObjCurrTime);
 		String currentYearStamp = responseObjCurrTime.asString();
-		
-		
-		
+		System.out.println("Search Results with current Year" + currentYearStamp);
+		Assert.assertTrue(currentYearStamp.contains("2018"));
 	}
 	
 	
