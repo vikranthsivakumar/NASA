@@ -32,7 +32,7 @@ Tools used to test Authentiation: Postman is a ideal tool to test authentication
 Blazemeter can be used to test/enforce number of API requests in a timebox setup. This can test the nunber of request that the sever can handle per given condition, this is necessary to know the maximum number to prevent crashes. 
 
 
-A groovy framework is idally the best approach given the situation. 
+A groovy framework is ideally the best approach given the situation. 
 
 Test scenarios would include happy path tests which provide a correct/successful header request "email/password". Negative cases to determine if incorrect authentication headers are provided that the server returns a "Access Denied" message to the user to indicate they do not have authentication to proceed. Null entries is mandatory with authentication in that there are no header requests being sent therefore there should be an appopriate server side message indicating the header requests were given with null entries. 
 
